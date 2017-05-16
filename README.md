@@ -1,32 +1,48 @@
-# mysite-zappa
+# Basic Django app with Zappa
+Serverless web hosting for Django
+(https://github.com/Miserlou/Zappa#about)[https://github.com/Miserlou/Zappa#about]
 
-
-## Setup Virtual Environment in your Django app folder ##
+### Setup Virtual Environment in your Django app folder ###
 ```
 virtualenv venv
 ```
 
-## Activate Virtual Environment ##
+### Activate Virtual Environment ###
 ```
 source venv/bin/activate
 ```
 
-## Install Django ##
+### Install Django ###
 ```
 pip install Django
 ```
 
-## Install Zappa ##
+### Install Zappa ###
 ```
 pip install zappa
 ```
 
-## Initialize Zappa ##
+### Initialize Zappa ###
 ```
 zappa init
 ```
 
-## Deploy Zappa ##
+### Deploy Zappa ###
 ```
 zappa deploy
+```
+
+### Update Zappa ###
+```
+zappa update
+```
+
+### View logs from Lambda ###
+```
+zappa tail
+```
+
+### Undeploy Zappa ###
+```
+zappa undeploy
 ```
